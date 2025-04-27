@@ -1,0 +1,56 @@
+/* General */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f1ef;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.evento-img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* NAVBAR */
+.custom-navbar {
+  background-color: #4fdff8 !important;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.custom-navbar .nav-link:hover {
+  color: white !important;
+}
+
+/* BOTONES PERSONALIZADOS */
+.custom-btn {
+  background-color: #4fdff8;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.custom-btn:hover {
+  background-color: #4fdff8;
+  color: white;
+}
+
+/* FOOTER */
+.custom-footer {
+  background-color: #4fdff8;
+  color: #000;
+  text-align: center ;
+  padding: 20px 0;
+  font-weight: bold;
+}

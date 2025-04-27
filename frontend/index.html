@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EBS - Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- NAVBAR PERSONALIZADA -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EBS</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Iniciar sesión</a></li>
+          <li class="nav-item"><a class="nav-link" href="certificado.html">Solicitar certificado</a></li>
+          <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="text-center py-4">
+    <h1>Bienvenido a EBS</h1>
+    <p>Eventos de Bienestar para Empleados</p>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container my-4">
+    <h2 class="text-center mb-4">Próximos Eventos</h2>
+
+    <div id="eventosCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active text-center p-4">
+          <img src="imagenes/inteligencia-corporativa.jpg" alt="Inteligencia Corporativa" class="evento-img mb-3">
+          <h3>Inteligencia Corporativa</h3>
+          <p>Una sesión guiada para reducir el estrés laboral y mejorar el bienestar mental.</p>
+          <a href="inscripcion.html" class="btn custom-btn mt-3">Inscribirme</a>
+        </div>
+
+        <div class="carousel-item text-center p-4">
+          <img src="imagenes/alimentacion-saludable.jpg" alt="Taller de Alimentación Saludable" class="evento-img mb-3">
+          <h3>Taller de Alimentación Saludable</h3>
+          <p>Aprende cómo mejorar tu alimentación en el entorno laboral y familiar.</p>
+          <a href="inscripcion.html" class="btn custom-btn mt-3">Inscribirme</a>
+        </div>
+
+        <div class="carousel-item text-center p-4">
+          <img src="imagenes/reto-activate.jpg" alt="Reto Actívate" class="evento-img mb-3">
+          <h3>Reto Actívate</h3>
+          <p>Desafío mensual para mantenerte activo con metas y premios para los participantes.</p>
+          <a href="inscripcion.html" class="btn custom-btn mt-3">Inscribirme</a>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#eventosCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#eventosCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </main>
+
+  <!-- FOOTER PERSONALIZADO -->
+  <footer class="custom-footer text-center py-3">
+    <p>&copy; 2025 EBS - Sistema de Bienestar para Empleados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
